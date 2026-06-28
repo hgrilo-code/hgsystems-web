@@ -31,6 +31,11 @@
 
   <title>hgsystems</title>
   <link rel="manifest" href="manifest.json">
+
+  <!-- Passkeys Web SDK (dependência do supabase_flutter via passkeys).
+       Tem de ser carregado antes do Flutter arrancar, senão a app fica em
+       branco na web. -->
+  <script src="bundle.js"></script>
 </head>
 <body>
   <!--
