@@ -32,6 +32,19 @@
   <title>hgsystems</title>
   <link rel="manifest" href="manifest.json">
 
+  <!-- O Flutter Web usa um <input>/<textarea> HTML escondido por baixo do
+       texto desenhado, para apanhar o teclado/seleção — sem isto, alguns
+       browsers desenham à volta dele o próprio rebordo/contorno nativo de
+       foco, sobreposto ao rebordo pintado pela app (ex.: a barra de
+       pesquisa em AnaliseTable). -->
+  <style>
+    input, textarea {
+      outline: none !important;
+      border: none !important;
+      background: transparent !important;
+    }
+  </style>
+
   <!-- Passkeys Web SDK (dependência do supabase_flutter via passkeys).
        Tem de ser carregado antes do Flutter arrancar, senão a app fica em
        branco na web. -->
