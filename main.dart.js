@@ -160591,9 +160591,9 @@ if(n==null||n.a.jD(n.b)){s=1
 break}p.q(new A.bNh(p,n))
 case 1:return A.k(q,r)}})
 return A.l($async$Oi,r)},
-ag2(a){this.q(new A.bNl(this,a))},
+ag3(a){this.q(new A.bNl(this,a*7))},
 b42(){var s=this,r=null
-return A.oo(r,A.ap(A.b([A.bC(r,r,B.lK,r,r,B.tK,r,r,r,new A.bNp(s),B.a4,r,r,r,"Dia anterior",r),A.aw(A.dl(!1,r,!0,A.c4(A.Qu(B.am,A.p(s.q2(s.gCh().a),1,r,r,r,r,r,r,r),B.iU),r,r),r,!0,r,r,r,r,r,r,r,r,r,r,r,s.gaMU(),r,r,r,r,r,r,r),1),A.bC(r,r,B.lK,r,r,B.tJ,r,r,r,new A.bNq(s),B.a4,r,r,r,"Dia seguinte",r)],t.p),B.z,B.q,B.v,0,r,r),A.jC(r,B.ax,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,"Per\xedodo",!0,!0,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r),!1,!1,!1,!1,r,r)},
+return A.oo(r,A.ap(A.b([A.bC(r,r,B.lK,r,r,B.tK,r,r,r,new A.bNp(s),B.a4,r,r,r,"Semana anterior",r),A.aw(A.dl(!1,r,!0,A.c4(A.Qu(B.am,A.p(s.q2(s.gCh().a),1,r,r,r,r,r,r,r),B.iU),r,r),r,!0,r,r,r,r,r,r,r,r,r,r,r,s.gaMU(),r,r,r,r,r,r,r),1),A.bC(r,r,B.lK,r,r,B.tJ,r,r,r,new A.bNq(s),B.a4,r,r,r,"Semana seguinte",r)],t.p),B.z,B.q,B.v,0,r,r),A.jC(r,B.ax,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,"Per\xedodo",!0,!0,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r),!1,!1,!1,!1,r,r)},
 G(a){var s,r,q=this,p=null,o=q.a.c,n=A.au(o.e)===B.M||o.Q.n(0,"rh_empresas_ver")
 o=q.gQ9()
 s=A.b([],t.q2)
@@ -160727,10 +160727,10 @@ $0(){var s=this.a,r=this.b
 s.f=new A.k4(s.gCh().a.cz(A.d3(r,0,0,0,0,0).a),s.gCh().b.cz(A.d3(r,0,0,0,0,0).a),t.bz)},
 $S:0}
 A.bNp.prototype={
-$0(){return this.a.ag2(-1)},
+$0(){return this.a.ag3(-1)},
 $S:0}
 A.bNq.prototype={
-$0(){return this.a.ag2(1)},
+$0(){return this.a.ag3(1)},
 $S:0}
 A.bNs.prototype={
 $1(a){var s
@@ -168770,7 +168770,7 @@ l.toString
 k.push(new A.S(B.t6,i.a_p(l,a,p),h))}s=i.a.c
 if(A.au(s.e)===B.M||s.Q.n(0,"turno_calendario_editar"))B.h.F(k,A.b([B.bV,A.akB(B.aIZ,B.agD,new A.bfA(i,b))],j))
 return A.cW(h,A.aj(k,B.a6,B.q,B.v,0,B.C),B.W,h,h,new A.cM(o,h,n,m,h,h,B.bf),h,h,h,B.bA,B.di,h,h,1/0)},
-ag3(a){var s=this,r=s.f,q=r.cz(A.d3(a,0,0,0,0,0).a),p=A.bh(A.aa(q),A.ac(q),A.aA(q),0,0,0,0,0)
+ag2(a){var s=this,r=s.f,q=r.cz(A.d3(a,0,0,0,0,0).a),p=A.bh(A.aa(q),A.ac(q),A.aA(q),0,0,0,0,0)
 s.q(new A.bfO(s,p))
 if(A.ac(p)!==A.ac(r)||A.aa(p)!==A.aa(r))s.ND(p)},
 X7(a,b,c,d){var s,r,q,p,o,n,m,l,k,j,i=null,h=A.B(a),g=this.x.h(0,A.bh(A.aa(b),A.ac(b),A.aA(b),0,0,0,0,0))
@@ -168898,10 +168898,10 @@ $0(){var s=this.a
 s.w=s.f=this.b},
 $S:0}
 A.bfY.prototype={
-$0(){return this.a.ag3(-7)},
+$0(){return this.a.ag2(-7)},
 $S:0}
 A.bfZ.prototype={
-$0(){return this.a.ag3(7)},
+$0(){return this.a.ag2(7)},
 $S:0}
 A.bfA.prototype={
 $0(){return this.a.B4(this.b)},
