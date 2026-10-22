@@ -84,15 +84,15 @@ this.a=e},
 cTw(a2){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1=null
 try{a1=G.cH0(a2)}catch(w){v=A.L(w)
 if(v instanceof G.pR){x=v
-throw A.p(new B.Av(x.a))}else throw w}if(a1.gOx().a===0)throw A.p(D.bQ5)
+throw A.p(new B.Av(x.a))}else throw w}if(a1.gOx().a===0)throw A.p(D.bQ3)
 v=a1.gOx()
 u=a1.gOx()
 t=v.h(0,new A.ba(u,A.v(u).i("ba<1>")).gP(0)).gaA2(0)
-if(t.length<2)throw A.p(D.bQ4)
+if(t.length<2)throw A.p(D.bQ2)
 s=new B.b_d(C.f.gP(t))
 v=y.s
 r=s.$1(A.a(["ldap"],v))
-if(r==null)throw A.p(D.bQ6)
+if(r==null)throw A.p(D.bQ4)
 q=s.$1(A.a(["nome abreviado","nome"],v))
 p=s.$1(A.a(["local de trabalho"],v))
 o=s.$1(A.a(["miss\xe3o","missao"],v))
@@ -217,7 +217,7 @@ for(x=0;x<24;++x){w="\xe1\xe0\xe2\xe3\xe4\xe9\xe8\xea\xeb\xed\xec\xee\xef\xf3\xf
 v="aaaaaeeeeiiiiooooouuuucn"[x]
 u=A.cW(u,w,v)}return u},
 ahj(d,e,f){var x,w,v,u
-if(e==null)return D.bLc
+if(e==null)return D.bLa
 x=A.a([],y.L)
 w=e.ax
 v=d.a
@@ -294,14 +294,14 @@ b1=J.r(k,s.Tj(b0)+"|"+a0)
 a2=b1==null?C.eY:b1
 if(J.aC(a2)===1){a3=J.fd(a2)
 e.a[3].toString
-J.aH(h,new B.yw(e,a0,a3,D.an0,s.ahj(e,a3,a0)))
+J.aH(h,new B.yw(e,a0,a3,D.an_,s.ahj(e,a3,a0)))
 x=12
 break}if(J.aC(a2)>1){J.aH(g,"LDAP "+e.a[2]+" ("+A.n(d)+"): h\xe1 "+J.aC(a2)+" colaboradores com este nome em "+a0+" (LDAPs: "+J.ek(a2,new B.cfn(),b3).b6(0,", ")+") \u2014 linha ignorada, n\xe3o \xe9 seguro adivinhar qual. Corrige \xe0 m\xe3o em RH \u2192 Colaboradores.")
 x=12
 break}}a4=s.ahj(e,a1,a0)
 e.a[3].toString
-if(a1==null)b0=D.amY
-else b0=J.aC(a4)===0?D.an_:D.amZ
+if(a1==null)b0=D.amX
+else b0=J.aC(a4)===0?D.amZ:D.amY
 J.aH(h,new B.yw(e,a0,a1,b0,a4))
 case 12:o.length===a6||(0,A.u)(o),++a8
 x=11
@@ -530,7 +530,7 @@ if(s!=null)C.f.v(t,A.a([new B.axF(s,w),C.aQ],u))
 t.push(x.aSc(d))
 return A.c1(new A.dZ(F.PH,A.dr(A.Y(t,C.ao,C.p,C.Q,0,C.v),w,C.db,w,w,C.aC),w),w,w)},
 aSc(d){var x,w,v,u,t,s=this,r=null
-switch(s.d.a){case 0:return A.jA(D.aQZ,D.cgG,s.gaVO())
+switch(s.d.a){case 0:return A.jA(D.aQX,D.cgF,s.gaVO())
 case 1:x=s.e
 return new B.a2m('A ler "'+(x==null?"":x)+'"\u2026',r)
 case 2:return s.bbE(d)
@@ -545,7 +545,7 @@ u=s.w.length
 if(u!==0){t=x.CW
 x=t==null?x.y:t
 v.push(new B.p9(C.qV,"Avisos",""+u,x,r))}v.push(C.aQ)
-v.push(A.jA(C.dx,D.ch8,s.gapH()))
+v.push(A.jA(C.dx,D.ch7,s.gapH()))
 return A.cx(r,2,new A.H(C.bx,A.Y(v,C.ao,C.p,C.r,0,C.v),r),r,!0,r,r)}},
 bbE(a3){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d=null,a0=A.D(a3),a1=e.r,a2=new A.am(a1,new B.cft(),A.T(a1).i("am<1>")).gu(0)
 a1=e.r
@@ -564,7 +564,7 @@ if(a1==null)a1="\u2014"
 v=a0.ax
 q=v.b
 p=y.p
-q=A.a([new B.p9(D.aP3,"Ficheiro",a1,d,d),new B.p9(C.In,"Colaboradores novos a criar",""+a2,q,d),new B.p9(D.TN,"Fichas a atualizar",""+x,q,d),new B.p9(C.a7,"Sem altera\xe7\xf5es",""+w,d,d)],p)
+q=A.a([new B.p9(D.aP1,"Ficheiro",a1,d,d),new B.p9(C.In,"Colaboradores novos a criar",""+a2,q,d),new B.p9(D.TN,"Fichas a atualizar",""+x,q,d),new B.p9(C.a7,"Sem altera\xe7\xf5es",""+w,d,d)],p)
 a1=u.length
 if(a1!==0){o=v.CW
 if(o==null)o=v.y
@@ -572,7 +572,7 @@ q.push(new B.p9(D.Tf,"Poss\xedveis duplicados (a rever)",""+a1,o,d))}a1=e.w.leng
 if(a1!==0){o=v.CW
 if(o==null)o=v.y
 q.push(new B.p9(C.qV,"Avisos",""+a1,o,d))}a1=s===0
-if(a1&&u.length===0)C.f.v(q,A.a([C.S,D.cfo],p))
+if(a1&&u.length===0)C.f.v(q,A.a([C.S,D.cfm],p))
 if(a1&&u.length!==0){o=v.CW
 C.f.v(q,A.a([C.S,A.f("Nada marcado ainda para gravar \u2014 rev\xea a lista de poss\xedveis duplicados abaixo e marca os que reconheceres.",d,d,d,d,A.bA(d,d,o==null?v.y:o,d,d,d,d,d,d,d,d,d,d,d,d,d,d,!0,d,d,d,d,d,d,d,d),d,d,d)],p))}if(s>0&&!r)C.f.v(q,A.a([C.S,A.f('A tua conta s\xf3 tem "Ver" nesta funcionalidade \u2014 falta "Editar" para poderes gravar.',d,d,d,d,A.bA(d,d,v.fy,d,d,d,d,d,d,d,d,d,d,d,d,d,d,!0,d,d,d,d,d,d,d,d),d,d,d)],p))
 if(u.length!==0){o=a0.ok
@@ -599,9 +599,9 @@ n.push(new A.H(C.hf,A.f("\u2022 "+(i==null?l.a(i):i),d,d,d,d,o,d,d,d),d))}m=e.w.
 if(m>50)n.push(A.f("\u2026 e mais "+(m-50)+".",d,d,d,d,o,d,d,d))
 C.f.v(q,A.a([C.S,A.cs6(n,d,d,!1,d,d,C.a_,v)],p))}q.push(C.aQ)
 a1=a1||!r?d:e.gaRi()
-q.push(A.jA(D.aQN,A.f("Gravar "+s+" colaboradores",d,d,d,d,d,d,d,d),a1))
+q.push(A.jA(D.aQL,A.f("Gravar "+s+" colaboradores",d,d,d,d,d,d,d,d),a1))
 q.push(C.Z)
-q.push(A.aD(D.chz,d,d,e.gapH(),d,d))
+q.push(A.aD(D.chy,d,d,e.gapH(),d,d))
 return A.cx(d,2,new A.H(C.bx,A.Y(q,C.ao,C.p,C.r,0,C.v),d),d,!0,d,d)}}
 B.aEU.prototype={
 H(d){var x,w,v,u,t,s=this,r=null,q=A.D(d),p=q.ax,o=p.RG
@@ -612,7 +612,7 @@ if(w!=null){p=p.fy
 v=A.aU(C.C,p,r,16)
 u=q.ok.Q
 p=u==null?r:u.ac(p)
-p=A.a2(A.a([v,C.ar,A.a7(A.f("N\xe3o foi poss\xedvel carregar: "+w,r,r,r,r,p,r,r,r),1),A.aD(F.alB,r,r,s.f,r,r)],y.p),C.J,C.p,C.r,0,r,r)}else{w=s.c
+p=A.a2(A.a([v,C.ar,A.a7(A.f("N\xe3o foi poss\xedvel carregar: "+w,r,r,r,r,p,r,r,r),1),A.aD(F.alA,r,r,s.f,r,r)],y.p),C.J,C.p,C.r,0,r,r)}else{w=s.c
 v=w!=null
 u=v?C.k7:F.Tv
 if(v)p=p.b
@@ -668,7 +668,7 @@ x.at=!1},
 $S:0}
 B.cfl.prototype={
 $0(){var x=this.a
-x.d=D.cnI
+x.d=D.cnH
 x.e=this.b.b
 x.f=null
 x.r=D.Ki
@@ -694,7 +694,7 @@ x.d=D.NQ},
 $S:0}
 B.cfg.prototype={
 $0(){var x=this.a
-x.d=D.cnJ
+x.d=D.cnI
 x.Q=0},
 $S:0}
 B.cfh.prototype={
@@ -716,7 +716,7 @@ x.x=w.c
 x.y=w.b
 x.z=w.a
 x.w=this.c
-x.d=D.cnK},
+x.d=D.cnJ},
 $S:0}
 B.cfA.prototype={
 $0(){var x=this.a
@@ -728,16 +728,16 @@ x.Q=x.z=x.y=x.x=0
 x.ay.ab(0)},
 $S:0}
 B.cft.prototype={
-$1(d){return d.e===D.amY},
+$1(d){return d.e===D.amX},
 $S:z+0}
 B.cfu.prototype={
-$1(d){return d.e===D.amZ},
+$1(d){return d.e===D.amY},
 $S:z+0}
 B.cfv.prototype={
-$1(d){return d.e===D.an_},
+$1(d){return d.e===D.amZ},
 $S:z+0}
 B.cfw.prototype={
-$1(d){return d.e===D.an0},
+$1(d){return d.e===D.an_},
 $S:z+0}
 B.cfx.prototype={
 $1(d){return this.a.ay.m(0,d.a.a[2])},
@@ -795,27 +795,27 @@ A.CG(b.typeUniverse,JSON.parse('{"BF":{"ac":[],"o":[]},"a8a":{"ab":["BF"]},"aEU"
 var y=(function rtii(){var x=A.ap
 return{Q:x("A<fk>"),L:x("A<+campo,de,para(e,e?,e?)>"),d:x("A<+campo,colaboradorId,numLoja,valorAnterior,valorNovo(e,d,e,e?,e?)>"),k:x("A<+centroCusto,hierarquia,ldap,localTrabalho,manager,missao,nome(e?,e?,e,e?,e?,e?,e?)>"),s:x("A<e>"),p:x("A<o>"),D:x("A<ye>"),f:x("A<yw>"),Z:x("C<fk>"),P:x("X<e,@>"),N:x("e"),S:x("d"),X:x("fk?"),O:x("E?"),R:x("a8?"),H:x("~")}})();(function constants(){var x=a.makeConstList
 D.Tf=new A.aw(58504,"MaterialIcons",!1)
-D.aP3=new A.aw(61358,"MaterialIcons",!1)
+D.aP1=new A.aw(61358,"MaterialIcons",!1)
 D.TN=new A.aw(984310,"MaterialIcons",!1)
-D.aQN=new A.b0(C.Tw,null,null,null,null)
-D.aOm=new A.aw(58020,"MaterialIcons",!1)
-D.aQZ=new A.b0(D.aOm,null,null,null,null)
+D.aQL=new A.b0(C.Tw,null,null,null,null)
+D.aOk=new A.aw(58020,"MaterialIcons",!1)
+D.aQX=new A.b0(D.aOk,null,null,null,null)
 D.Ki=x([],y.f)
-D.bLc=x([],y.L)
-D.bQ4=new B.Av("O ficheiro est\xe1 vazio.")
-D.bQ5=new B.Av("O ficheiro n\xe3o tem nenhuma folha.")
-D.bQ6=new B.Av('N\xe3o encontrei a coluna "LDAP" no cabe\xe7alho do ficheiro.')
-D.cfo=new A.U("Nada para gravar \u2014 ningu\xe9m no ficheiro tem altera\xe7\xf5es por aplicar (ver avisos, se houver).",null,null,null,null,null,null,null,null,null,null)
-D.cgG=new A.U("Escolher ficheiro Excel",null,null,null,null,null,null,null,null,null,null)
-D.ch8=new A.U("Carregar outro ficheiro",null,null,null,null,null,null,null,null,null,null)
-D.chz=new A.U("Escolher outro ficheiro",null,null,null,null,null,null,null,null,null,null)
-D.amY=new B.OM(0,"criar")
-D.amZ=new B.OM(1,"atualizar")
-D.an_=new B.OM(2,"semAlteracoes")
-D.an0=new B.OM(3,"duplicadoPossivel")
+D.bLa=x([],y.L)
+D.bQ2=new B.Av("O ficheiro est\xe1 vazio.")
+D.bQ3=new B.Av("O ficheiro n\xe3o tem nenhuma folha.")
+D.bQ4=new B.Av('N\xe3o encontrei a coluna "LDAP" no cabe\xe7alho do ficheiro.')
+D.cfm=new A.U("Nada para gravar \u2014 ningu\xe9m no ficheiro tem altera\xe7\xf5es por aplicar (ver avisos, se houver).",null,null,null,null,null,null,null,null,null,null)
+D.cgF=new A.U("Escolher ficheiro Excel",null,null,null,null,null,null,null,null,null,null)
+D.ch7=new A.U("Carregar outro ficheiro",null,null,null,null,null,null,null,null,null,null)
+D.chy=new A.U("Escolher outro ficheiro",null,null,null,null,null,null,null,null,null,null)
+D.amX=new B.OM(0,"criar")
+D.amY=new B.OM(1,"atualizar")
+D.amZ=new B.OM(2,"semAlteracoes")
+D.an_=new B.OM(3,"duplicadoPossivel")
 D.NQ=new B.HY(0,"idle")
-D.cnI=new B.HY(1,"aCarregar")
+D.cnH=new B.HY(1,"aCarregar")
 D.NR=new B.HY(2,"pronto")
-D.cnJ=new B.HY(3,"aGravar")
-D.cnK=new B.HY(4,"concluido")})()};
-(a=>{a["FFCcYiaNxEQpbJoAegxkZaj+8ao="]=a.current})($__dart_deferred_initializers__);
+D.cnI=new B.HY(3,"aGravar")
+D.cnJ=new B.HY(4,"concluido")})()};
+(a=>{a["MRMcd5i633DlV+OpNeiTTDWjC6M="]=a.current})($__dart_deferred_initializers__);
