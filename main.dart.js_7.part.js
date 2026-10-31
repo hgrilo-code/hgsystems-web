@@ -166,7 +166,7 @@ for(;;)switch(w){case 0:k=B.aZ3(d.a)
 if(k==null||!k.at){u=d.e
 w=1
 break}t=e==null?d.y:e
-if(t==null)throw A.p(D.V1)
+if(t==null)throw A.p(D.V2)
 w=k.ax?3:5
 break
 case 3:s=A.aL(x.N)
@@ -198,7 +198,7 @@ return A.l($async$aiX,v)},
 cVp(d,e){var w,v=B.aZ3(d.a)
 if(v==null||!v.ay)return d.e
 w=e==null?d.y:e
-if(w==null)throw A.p(D.V1)
+if(w==null)throw A.p(D.V2)
 return B.cv5(d.e,w)},
 cVu(d,e,f){var w,v,u,t,s,r,q,p,o=null,n="), n\xe3o da tua loja ("
 if(f==null)return o
@@ -894,7 +894,7 @@ if(!w.w&&w.y!=null){u=w.y
 u.toString
 t=w.z
 t.toString
-C.f.v(p,A.a([C.R,new B.awk(u,t,v)],n))}return A.c_(new A.e0(G.Q2,A.dl(A.V(A.a([A.V(p,C.an,C.p,C.r,0,C.u)],n),C.an,C.p,C.Q,0,C.u),v,C.db,v,v,C.az),v),v,v)}}
+C.f.v(p,A.a([C.R,new B.awk(u,t,v)],n))}return A.c_(new A.e0(G.Q3,A.dl(A.V(A.a([A.V(p,C.an,C.p,C.r,0,C.u)],n),C.an,C.p,C.Q,0,C.u),v,C.db,v,v,C.az),v),v,v)}}
 B.a2N.prototype={
 Y(){return new B.awj()}}
 B.awj.prototype={
@@ -919,7 +919,7 @@ if(e!=null){i=v.fy
 v=A.aQ(C.C,i,k,16)
 o=o.Q
 i=o==null?k:o.ac(i)
-g.push(new A.H(C.hi,A.a_(A.a([v,C.aq,A.a5(A.f("N\xe3o foi poss\xedvel carregar: "+e,k,k,k,k,i,k,k,k),1),A.aD(G.alW,k,k,l.a.e,k,k)],m),C.I,C.p,C.r,0,k,k),k))}else{p=A.a([],m)
+g.push(new A.H(C.hi,A.a_(A.a([v,C.aq,A.a5(A.f("N\xe3o foi poss\xedvel carregar: "+e,k,k,k,k,i,k,k,k),1),A.aD(G.alX,k,k,l.a.e,k,k)],m),C.I,C.p,C.r,0,k,k),k))}else{p=A.a([],m)
 if(!i&&s.length===0){o=o.Q
 if(o==null)v=k
 else{n=v.rx
@@ -932,7 +932,7 @@ C.f.v(g,p)}return A.bm(k,A.V(g,C.I,C.p,C.r,0,C.u),C.K,k,k,new A.bU(r,k,k,q,k,k,C
 b5F(d,e,f){var w,v,u,t,s,r,q=null,p=f!=null&&J.d2(f),o=d.ax
 if(p)w=o.b
 else{v=o.rx
-w=v==null?o.k3:v}o=p?C.jp:G.TU
+w=v==null?o.k3:v}o=p?C.jp:G.TV
 o=A.aQ(o,p?w:w.bW(0.5),q,16)
 v=d.ok.Q
 u=v==null
@@ -955,7 +955,7 @@ s=x.p
 t=A.a([A.f(""+l+" de "+(l+j)+" importado(s) com sucesso"+v+".",o,o,o,o,t,o,o,o),C.a_],s)
 for(l=m.length,j=i.b,u=u.Q,r=0;r<m.length;m.length===l||(0,A.t)(m),++r){q=m[r]
 t.push(new A.H(C.nT,A.a_(A.a([A.aQ(C.jp,j,o,18),C.aq,new A.cy(1,C.aJ,A.f(q,o,o,o,o,u,o,o,o),o)],s),C.I,C.p,C.r,0,o,o),o))}for(m=k.length,i=i.fy,r=0;r<k.length;k.length===m||(0,A.t)(k),++r){p=k[r]
-t.push(new A.H(C.nT,A.a_(A.a([A.aQ(C.Tt,i,o,18),C.aq,new A.cy(1,C.aJ,A.f(p,o,o,o,o,u,o,o,o),o)],s),C.I,C.p,C.r,0,o,o),o))}return A.bm(o,A.V(t,C.I,C.p,C.r,0,C.u),C.K,o,o,new A.bU(h,o,o,w,o,o,C.aF),o,o,o,o,C.d0,o,o,o)}}
+t.push(new A.H(C.nT,A.a_(A.a([A.aQ(C.Tu,i,o,18),C.aq,new A.cy(1,C.aJ,A.f(p,o,o,o,o,u,o,o,o),o)],s),C.I,C.p,C.r,0,o,o),o))}return A.bm(o,A.V(t,C.I,C.p,C.r,0,C.u),C.K,o,o,new A.bU(h,o,o,w,o,o,C.aF),o,o,o,o,C.d0,o,o,o)}}
 B.aiW.prototype={}
 B.uV.prototype={}
 var z=a.updateTypes(["al<~>()","al<e?>(uV,e)","al<C<uV>>(eG)"])
@@ -1028,7 +1028,7 @@ u=A.a([],x.I)
 for(t=J.a3(this.b.r),s=x.r;t.q();){r=t.gA(t)
 q=r.b
 u.push(new A.bp(q,A.f(q+" \u2014 "+r.a,p,p,p,p,p,p,p,p),C.ao,p,s))}t=x.p
-u=A.V(A.a([o,C.R,A.ap(A.cR(C.Vb,p,v,!0,!0,u,p,new B.bNx(w,e),p,x.N),44,p)],t),C.I,C.p,C.Q,0,C.u)
+u=A.V(A.a([o,C.R,A.ap(A.cR(C.Vc,p,v,!0,!0,u,p,new B.bNx(w,e),p,x.N),44,p)],t),C.I,C.p,C.Q,0,C.u)
 v=A.aD(D.ciA,p,p,new B.bNy(d),p,p)
 return A.aW(A.a([v,A.bq(C.tT,w.a==null?p:new B.bNz(w,d),p)],t),p,p,u,p,p,p,D.cfx)},
 $S:12}
@@ -1130,13 +1130,13 @@ var y={c:'N\xe3o foi poss\xedvel identificar a loja deste ficheiro (rodap\xe9 "F
 var x=(function rtii(){var w=A.aq
 return{r:w("bp<e>"),x:w("al<~>"),B:w("aiW"),I:w("A<bp<e>>"),n:w("A<hi>"),G:w("A<C<X<e,@>>>"),t:w("A<X<e,@>>"),i:w("A<uV>"),s:w("A<e>"),p:w("A<o>"),S:w("A<j4>"),D:w("A<yr>"),F:w("C<X<e,@>>"),e:w("C<uV>"),E:w("C<j4>"),j:w("C<@>"),P:w("X<e,@>"),K:w("a8"),m:w("uV"),O:w("+aplicados,propostos(d,d)"),N:w("e"),J:w("eG"),y:w("db<e>"),R:w("bW<C<j4>>"),a:w("Cy<aH>"),g:w("aR<C<j4>>"),z:w("@"),X:w("a8?"),T:w("e?"),H:w("~")}})();(function constants(){var w=a.makeConstList
 D.aP9=new A.av(58244,"MaterialIcons",!0)
-D.aQI=new A.b_(C.TH,null,null,null,null)
+D.aQI=new A.b_(C.TI,null,null,null,null)
 D.aUm=new F.q1("Formato n\xe3o reconhecido. Este ficheiro n\xe3o corresponde a nenhum formato conhecido. Verifica se \xe9 o ficheiro certo.")
 D.aUn=new F.q1('O ficheiro n\xe3o tem linhas com data e marca de "On Time" reconhec\xedveis \u2014 exporta-o de novo.')
 D.aUo=new F.q1("O ficheiro n\xe3o tem linhas de dados.")
 D.aUq=new F.q1("O ficheiro n\xe3o tem folhas de c\xe1lculo.")
 D.aUr=new F.q1("N\xe3o foram encontradas linhas de dados v\xe1lidas.")
-D.V1=new F.q1(y.c)
+D.V2=new F.q1(y.c)
 D.bM4=w([],x.n)
 D.bM5=w([],x.S)
 D.bX7={relex:0,opcom:1,reserva:2,promessa:3,valorizacoes:4,preparar:5,localizacao_oc:6,edificios:7}
@@ -1155,4 +1155,4 @@ w($,"diA","cPv",()=>A.cf("Date\\s+\xe9\\s+em\\s+ou\\s+posterior\\s+a\\s+(\\d{2})
 w($,"diE","cPw",()=>A.cf("\\s*-\\s*$",!0,!1,!1))
 w($,"diz","cPu",()=>A.cf("\\((\\d+)\\)\\s*$",!0,!1,!1))
 w($,"diy","cPt",()=>A.cf("^(\\d+)\\s*-",!0,!1,!1))})()};
-(a=>{a["GFiHj2ykMq/kwCHMIsl7Azfz3CI="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["AlMgJLL67T1kef4shQPNcmV6wSc="]=a.current})($__dart_deferred_initializers__);
