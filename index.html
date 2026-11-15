@@ -17,6 +17,17 @@
   <base href="/hgsystems-web/">
 
   <meta charset="UTF-8">
+  <!-- Content-Security-Policy: limita de onde a página pode carregar scripts,
+       ligações e imagens, o que trava a injeção de código (XSS) e o roubo da
+       sessão guardada no localStorage. O GitHub Pages não deixa definir
+       cabeçalhos HTTP, por isso vai em <meta>.
+       - script-src: o próprio site, o CanvasKit (gstatic), o leitor de códigos
+         (jsdelivr, usado pelo mobile_scanner) e WebAssembly.
+       - connect-src: o Supabase (HTTP e WebSocket) e os mesmos CDNs.
+       - style-src 'unsafe-inline': o Flutter e o <style> abaixo precisam.
+       Ao mudar de CDN/serviço, atualizar aqui, senão a app fica em branco. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://www.gstatic.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://*.supabase.co https://www.gstatic.com; font-src 'self' data: https://fonts.gstatic.com https://www.gstatic.com; connect-src 'self' blob: data: https://*.supabase.co wss://*.supabase.co https://www.gstatic.com https://fonts.gstatic.com https://cdn.jsdelivr.net; media-src 'self' blob: data:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
 
