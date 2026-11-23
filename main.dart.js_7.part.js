@@ -364,7 +364,7 @@ if(s==null)return"N\xe3o foi poss\xedvel confirmar a tua loja \u2014 tenta mais 
 u=d.e
 r=x.y
 q=r.i("a9<z.E>")
-p=A.dj(new A.a9(new A.de(new A.a2(u,new B.b4t(t),A.U(u).i("a2<1,d?>")),r),new B.b4u(s),q),q.i("z.E"))
+p=A.dj(new A.a9(new A.de(new A.a2(u,new B.b4t(t),A.V(u).i("a2<1,d?>")),r),new B.b4u(s),q),q.i("z.E"))
 if(p.a===0)return o
 return"Este ficheiro tem dados de outra loja ("+p.aW(0,", ")+n+s+")."},
 cVi(d,e){var w,v,u,t,s,r,q=A.a([],x.t)
@@ -512,7 +512,7 @@ if(m.gQQ().a===0)throw A.q(D.b_D)
 r=A.a([],x.i)
 o=m.gQQ(),o=new A.bM(o,o.r,o.e,A.w(o).i("bM<2>"))
 case 3:if(!o.n()){w=4
-break}q=o.d.gaF1(0)
+break}q=o.d.gaF2(0)
 p=B.dwk(q)
 if(p==null){w=3
 break}t=6
@@ -580,7 +580,7 @@ d.toString
 j="ST"+C.h.D(d,3,"0")
 g=g[2]
 g.toString
-k=C.h.X(g)}}}c2=c5.w,g=A.U(c2).i("a2<1,d>"),d=c2.length!==0,a0=c5.r,a1=a0!=null,a2=r!=null,a3=s!=null,a4=c5.x,a5=a4.length,a6=c5.e,a7=a6.length,a8=c5.CW,a9=a8!=null,b0=x.H,h=c3
+k=C.h.X(g)}}}c2=c5.w,g=A.V(c2).i("a2<1,d>"),d=c2.length!==0,a0=c5.r,a1=a0!=null,a2=r!=null,a3=s!=null,a4=c5.x,a5=a4.length,a6=c5.e,a7=a6.length,a8=c5.CW,a9=a8!=null,b0=x.H,h=c3
 case 3:if(!(h<c4.length)){w=5
 break}w=C.f.a0(h-c3,500)===0?6:7
 break
@@ -700,7 +700,7 @@ if(v instanceof F.oy)return v.a
 if(v instanceof F.qR)return v.a
 if(v instanceof F.pz)return A.ab(v.a,v.b,v.c,0,0,0,0,0)
 if(v instanceof F.pA)return A.ab(v.a,v.b,v.c,v.d,v.e,v.f,v.r,v.w)
-if(v instanceof F.p0)return v.axR()
+if(v instanceof F.p0)return v.axS()
 if(v instanceof F.oE)return v.a
 return v.j(0)},
 dw1(d,e){var w,v,u,t=null
@@ -1024,14 +1024,14 @@ break}w=4
 return A.c(t.M3(s),$async$M4)
 case 4:case 1:return A.j(u,v)}})
 return A.k($async$M4,v)},
-M3(d){return this.baw(d)},
-baw(d){var w=0,v=A.l(x.H),u,t=2,s=[],r=this,q,p,o,n,m,l,k
+M3(d){return this.bax(d)},
+bax(d){var w=0,v=A.l(x.H),u,t=2,s=[],r=this,q,p,o,n,m,l,k
 var $async$M3=A.h(function(e,f){if(e===1){s.push(f)
 w=t}for(;;)switch(w){case 0:r.p(new B.c00(r))
 t=4
 o=r.e
 n=r.f
-m=r.d?r.gb1B():null
+m=r.d?r.gb1C():null
 w=7
 return A.c(B.yz(d,n,o,new B.c01(r),m),$async$M3)
 case 7:q=f
@@ -1053,13 +1053,13 @@ break
 case 6:case 1:return A.j(u,v)
 case 2:return A.i(s.at(-1),v)}})
 return A.k($async$M3,v)},
-b1C(d,e){var w,v=null,u={}
+b1D(d,e){var w,v=null,u={}
 u.a=null
 w=this.c
 w.toString
 return A.aD(v,v,!1,v,new B.c_W(u,this,e),w,v,!0,x.N)},
-G(d){var w=this,v=null,u=A.B(d),t=u.ok,s=A.f("Importar v\xe1rios ficheiros",v,v,v,v,t.w,v,v,v),r=w.ay,q=w.ch,p=w.w,o=p?v:w.gb1G(),n=p?C.m0:D.aWx,m=x.p
-o=A.a([s,C.O,new B.a5w(r,q,w.gaVu(),v),C.O,A.jF(n,A.f(p?"A importar\u2026":"Escolher ficheiros ou pasta",v,v,v,v,v,v,v,v),o,v)],m)
+G(d){var w=this,v=null,u=A.B(d),t=u.ok,s=A.f("Importar v\xe1rios ficheiros",v,v,v,v,t.w,v,v,v),r=w.ay,q=w.ch,p=w.w,o=p?v:w.gb1H(),n=p?C.m1:D.aWx,m=x.p
+o=A.a([s,C.O,new B.a5w(r,q,w.gaVv(),v),C.O,A.jF(n,A.f(p?"A importar\u2026":"Escolher ficheiros ou pasta",v,v,v,v,v,v,v,v),o,v)],m)
 if(w.w&&w.x.length!==0){t=t.Q
 s=A.a([C.U,A.f(w.x,v,v,v,v,t,v,v,v)],m)
 if(t==null)t=v
@@ -1101,11 +1101,11 @@ if(o==null)v=k
 else{n=v.rx
 v=o.a5(n==null?v.k3:n)}p.push(new A.E(C.eo,A.f("Ainda nada importado hoje.",k,k,k,k,v,k,k,k),k))}for(v=s.length,u=0;u<s.length;s.length===v||(0,A.t)(s),++u){t=s[u]
 o=i?k:f.h(0,t.a)
-p.push(l.bav(j,t.b,o))}i=l.d
+p.push(l.baw(j,t.b,o))}i=l.d
 v=A.aM(i?C.no:D.aUJ,k,k,18)
 p.push(new A.dk(C.bk,k,k,A.hg(v,A.f(i?"Mostrar s\xf3 os importados hoje":"Mostrar todos os formatos (28)",k,k,k,k,k,k,k,k),new B.bEz(l),k),k))
 C.e.u(g,p)}return A.aT(k,A.K(g,C.A,C.o,C.q,0,C.u),C.E,k,k,new A.b3(r,k,k,q,k,k,C.ao),k,k,k,k,C.cC,k,k,k)},
-bav(d,e,f){var w,v,u,t,s,r,q=null,p=f!=null&&J.cT(f),o=d.ax
+baw(d,e,f){var w,v,u,t,s,r,q=null,p=f!=null&&J.cT(f),o=d.ax
 if(p)w=o.b
 else{v=o.rx
 w=v==null?o.k3:v}o=p?C.hQ:G.Wh
@@ -1118,7 +1118,7 @@ t=A.a([o,C.ab,A.a_(A.f(e,q,q,q,q,t,q,q,q),1)],x.p)
 if(p){o=A.a([],x.s)
 for(s=J.X(f);s.n();){r=s.gv(s)
 o.push(C.h.D(C.f.j(A.cW(r)),2,"0")+":"+C.h.D(C.f.j(A.dd(r)),2,"0"))}o=C.e.aW(o," \xb7 ")
-t.push(A.f(o,q,q,q,q,u?q:v.a5(w),C.m8,q,q))}return new A.E(C.il,A.Q(t,C.t,C.o,C.q,0,q,q),q)}}
+t.push(A.f(o,q,q,q,q,u?q:v.a5(w),C.m9,q,q))}return new A.E(C.il,A.Q(t,C.t,C.o,C.q,0,q,q),q)}}
 B.aAG.prototype={
 G(d){var w,v,u,t,s,r,q,p,o=null,n=A.B(d),m=this.c,l=m.length,k=this.d,j=k.length,i=n.ax,h=i.RG
 if(h==null)h=i.k2
@@ -1204,7 +1204,7 @@ u=A.a([],x.I)
 for(t=J.X(this.b.r),s=x.r;t.n();){r=t.gv(t)
 q=r.b
 u.push(new A.bf(q,A.f(q+" \u2014 "+r.a,p,p,p,p,p,p,p,p),C.ap,p,s))}t=x.p
-u=A.K(A.a([o,C.O,new A.V(p,44,new A.cg(v,p,u,new B.c_S(w,e),C.xJ,p,!0,p,x.B),p)],t),C.A,C.o,C.J,0,C.u)
+u=A.K(A.a([o,C.O,new A.U(p,44,new A.cg(v,p,u,new B.c_S(w,e),C.xJ,p,!0,p,x.B),p)],t),C.A,C.o,C.J,0,C.u)
 v=A.ay(!1,D.cww,p,p,!0,p,p,new B.c_T(d),p,p)
 return A.aN(A.a([v,A.b7(C.vc,w.a==null?p:new B.c_U(w,d),p)],t),p,p,u,p,p,p,D.csx)},
 $S:13}
@@ -1326,9 +1326,9 @@ w=this.b
 if((w.a.a&30)===0)w.eL(0,D.bW_)},
 $S:40};(function installTearOffs(){var w=a._instance_0u,v=a._instance_2u,u=a._static_1
 var t
-w(t=B.a7F.prototype,"gaVu","Eu",0)
-w(t,"gb1G","EY",0)
-v(t,"gb1B","b1C",1)
+w(t=B.a7F.prototype,"gaVv","Eu",0)
+w(t,"gb1H","EY",0)
+v(t,"gb1C","b1D",1)
 u(B,"dBV","cMT",2)})();(function inheritance(){var w=a.inheritMany,v=a.inherit
 w(A.ac,[B.C_,B.a5w])
 w(A.ad,[B.a7F,B.aAF])
@@ -1340,7 +1340,7 @@ w(A.aa,[B.amI,B.wu])})()
 A.ED(b.typeUniverse,JSON.parse('{"a5w":{"ac":[],"o":[]},"C_":{"ac":[],"o":[]},"a7F":{"ad":["C_"]},"aAF":{"ad":["a5w"]},"aAG":{"az":[],"o":[]}}'))
 var y={c:'N\xe3o foi poss\xedvel identificar a loja deste ficheiro (rodap\xe9 "Filtros aplicados" em falta) \u2014 exporta-o de novo.'}
 var x=(function rtii(){var w=A.aq
-return{r:w("bf<d>"),x:w("ak<~>"),C:w("amI"),I:w("x<bf<d>>"),n:w("x<hb>"),G:w("x<A<a5<d,@>>>"),t:w("x<a5<d,@>>"),i:w("x<wu>"),s:w("x<d>"),p:w("x<o>"),S:w("x<jN>"),D:w("x<A1>"),F:w("A<a5<d,@>>"),e:w("A<wu>"),E:w("A<jN>"),j:w("A<@>"),P:w("a5<d,@>"),K:w("aa"),m:w("wu"),O:w("+aplicados,propostos(e,e)"),B:w("cg<d>"),N:w("d"),J:w("eT"),y:w("de<d>"),R:w("c1<A<jN>>"),a:w("Ef<aR>"),g:w("aX<A<jN>>"),z:w("@"),X:w("aa?"),T:w("d?"),H:w("~")}})();(function constants(){var w=a.makeConstList
+return{r:w("bf<d>"),x:w("ak<~>"),C:w("amI"),I:w("x<bf<d>>"),n:w("x<hb>"),G:w("x<A<a5<d,@>>>"),t:w("x<a5<d,@>>"),i:w("x<wu>"),s:w("x<d>"),p:w("x<o>"),S:w("x<jM>"),D:w("x<A1>"),F:w("A<a5<d,@>>"),e:w("A<wu>"),E:w("A<jM>"),j:w("A<@>"),P:w("a5<d,@>"),K:w("aa"),m:w("wu"),O:w("+aplicados,propostos(e,e)"),B:w("cg<d>"),N:w("d"),J:w("eT"),y:w("de<d>"),R:w("c1<A<jM>>"),a:w("Ef<aR>"),g:w("aX<A<jM>>"),z:w("@"),X:w("aa?"),T:w("d?"),H:w("~")}})();(function constants(){var w=a.makeConstList
 D.Uj=new A.c7(3e6)
 D.aLO=new A.c7(8e4)
 D.aUJ=new A.an(58244,"MaterialIcons",!0)
@@ -1371,4 +1371,4 @@ w($,"dLq","dfF",()=>A.cb("Date\\s+\xe9\\s+em\\s+ou\\s+posterior\\s+a\\s+(\\d{2})
 w($,"dLu","dfG",()=>A.cb("\\s*-\\s*$",!0,!1,!1))
 w($,"dLp","dfE",()=>A.cb("\\((\\d+)\\)\\s*$",!0,!1,!1))
 w($,"dLo","dfD",()=>A.cb("^(\\d+)\\s*-",!0,!1,!1))})()};
-(a=>{a["/iRO3LY7zrjQzqhXbPxxgTnQ16Q="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["s0o6Wxar4r5z7hoyoXI4TKBF03g="]=a.current})($__dart_deferred_initializers__);
